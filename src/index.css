@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "wavehouse";
+  src: url("@fonts/Wavehaus-66Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "wavehouse";
+  src: url("@fonts/Wavehaus-158ExtraBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "wavehouse";
+  src: url("@fonts/Wavehaus-128Bold.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "wavehouse";
+  src: url("@fonts/Wavehaus-158ExtraBold.otf") format("opentype");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "wavehouse";
+  src: url("@fonts/Wavehaus-66Book.otf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "wavehouse";
+  src: url("@fonts/Wavehaus-42Light.otf") format("opentype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "roxborough";
+  src: url("@fonts/roxborough/RoxboroughCF-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roxborough";
+  src: url("@fonts/roxborough/RoxboroughCF-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roxborough";
+  src: url("@fonts/roxborough/RoxboroughCF-DemiBold.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "roxborough";
+  src: url("@fonts/roxborough/RoxboroughCF-ExtraBold.otf") format("opentype");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "roxborough";
+  src: url("@fonts/roxborough/RoxboroughCF-Thin.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "roxborough";
+  src: url("@fonts/roxborough/RoxboroughCF-Light.otf") format("opentype");
+  font-weight: lighter;
+}
+
+.rox {
+  font-family: "roxborough", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Merriweather', serif;
+  background-image: url("/mobileBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("/mobileBg.png");
+  }
+}
+
+img {
+  @apply shadow-2xl;
+}
+:root {
+--color1:#006666; 
+--color2: #008080;
+--color3: #62ABAB; 
+--color4: #B2D8D8; 
+--color5: #b2d8d8;
+
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}

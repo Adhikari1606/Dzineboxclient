@@ -1,0 +1,23 @@
+// Country data with flags and phone codes
+export const countries = [
+  { code: 'us', name: 'United States', dialCode: '+1', flag: '🇺🇸' },
+  { code: 'gb', name: 'United Kingdom', dialCode: '+44', flag: '🇬🇧' },
+  { code: 'in', name: 'India', dialCode: '+91', flag: '🇮🇳' },
+  { code: 'ca', name: 'Canada', dialCode: '+1', flag: '🇨🇦' },
+  { code: 'au', name: 'Australia', dialCode: '+61', flag: '🇦🇺' },
+  { code: 'de', name: 'Germany', dialCode: '+49', flag: '🇩🇪' },
+  { code: 'fr', name: 'France', dialCode: '+33', flag: '🇫🇷' },
+  { code: 'it', name: 'Italy', dialCode: '+39', flag: '🇮🇹' },
+  { code: 'es', name: 'Spain', dialCode: '+34', flag: '🇪🇸' },
+  { code: 'jp', name: 'Japan', dialCode: '+81', flag: '🇯🇵' },
+  { code: 'cn', name: 'China', dialCode: '+86', flag: '🇨🇳' },
+  { code: 'ru', name: 'Russia', dialCode: '+7', flag: '🇷🇺' },
+  { code: 'br', name: 'Brazil', dialCode: '+55', flag: '🇧🇷' },
+  { code: 'ae', name: 'UAE', dialCode: '+971', flag: '🇦🇪' },
+  { code: 'sa', name: 'Saudi Arabia', dialCode: '+966', flag: '🇸🇦' },
+  { code: 'za', name: 'South Africa', dialCode: '+27', flag: '🇿🇦' },
+  { code: 'sg', name: 'Singapore', dialCode: '+65', flag: '🇸🇬' },
+  { code: 'nl', name: 'Netherlands', dialCode: '+31', flag: '🇳🇱' },
+  { code: 'se', name: 'Sweden', dialCode: '+46', flag: '🇸🇪' },
+  { code: 'ch', name: 'Switzerland', dialCode: '+41', flag: '🇨🇭' },
+];
